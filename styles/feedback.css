@@ -1,0 +1,430 @@
+body{
+    background-color: rgb(187, 187, 187);
+    height: 100%;
+    background-position: center;
+}
+.container{
+    background-color: rgb(78, 78, 78);
+    opacity: 0.95;
+}
+.form1{
+    width: 100%;
+    display: flex;
+}
+.checkbox{
+    width: 50%;
+    font-size: 100%;
+    text-align: left;
+    margin-left: 10%;
+    color:white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+form>div>p{
+    font-size: 100%;
+}
+img{
+    width: 100%;
+    height: auto !important;
+}
+.form2{
+    color:white;
+    display: flex;
+}
+.input1{
+    width: 50%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    font-size: 100%;
+}
+.input2{
+    float:right;
+    width:50%;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    font-size: 100%;
+}
+input{
+    border-bottom: 1px solid black;
+    border-radius: 5%;
+}
+textarea{
+    border: 1px solid black;
+    border-radius:5%;
+}
+.form3{
+    color:white;
+    display: flex;
+}
+.radio{
+    width: 50%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    font-size: 100%;
+    text-align: left;
+}
+.rating_start {
+    width:50%;
+    float: left;
+    height: 1.2em;
+    padding: 5% 10%;
+}
+.rating_start:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rating_start:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:3em;
+    color:#ccc;
+}
+.rating_start:not(:checked) > label:before {
+    content: '★ ';
+}
+.rating_start > input:checked ~ label {
+    color: yellow;    
+}
+.rating_start:not(:checked) > label:hover,
+.rating_start:not(:checked) > label:hover ~ label {
+    color: orange;  
+}
+.rating_start > input:checked + label:hover,
+.rating_start > input:checked + label:hover ~ label,
+.rating_start > input:checked ~ label:hover,
+.rating_start > input:checked ~ label:hover ~ label,
+.rating_start > label:hover ~ input:checked ~ label {
+    color: rgb(255, 225, 0);
+}
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: rgb(187, 187, 187);
+        height: 100%;
+        background-position: center;
+    }
+    .container{
+        background-color: rgb(78, 78, 78);
+        opacity: 0.95;
+    }
+    .form1{
+        width: 100%;
+        display: flex;
+    }
+    .checkbox{
+        width: 50%;
+        font-size: 100%;
+        text-align: left;
+        margin-left: 10%;
+        color:white;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    form>div>p{
+        font-size: 100%;
+    }
+    img{
+        width: 100%;
+        height: auto !important;
+    }
+    .form2{
+        color:white;
+        display: table;
+    }
+    .input1{
+        width: 100%;
+        margin:auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 100%;
+    }
+    .input2{
+        margin: auto;
+        width:100%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 100%;
+    }
+    input{
+        border-bottom: 1px solid black;
+        border-radius: 5%;
+    }
+    textarea{
+        border: 1px solid black;
+        border-radius:5%;
+    }
+    .form3{
+        color:white;
+        display: table;
+        margin: auto;
+    }
+    .radio{
+        width: 100%;
+        float: none;
+        font-size: 100%;
+        text-align: left;
+        margin: auto;
+    }
+    .rating_start {
+        width:100%;
+        float: none;
+        height: 1.2em;
+        padding: 1% 0%;
+    }
+    .rating_start:not(:checked) > input {
+        position:absolute;
+        top:-9999px;
+    }
+    .rating_start:not(:checked) > label {
+        float:right;
+        width:1em;
+        overflow:hidden;
+        white-space:nowrap;
+        cursor:pointer;
+        font-size:3em;
+        color:#ccc;
+    }
+    .rating_start:not(:checked) > label:before {
+        content: '★ ';
+    }
+    .rating_start > input:checked ~ label {
+        color: yellow;    
+    }
+    .rating_start:not(:checked) > label:hover,
+    .rating_start:not(:checked) > label:hover ~ label {
+        color: orange;  
+    }
+    .rating_start > input:checked + label:hover,
+    .rating_start > input:checked + label:hover ~ label,
+    .rating_start > input:checked ~ label:hover,
+    .rating_start > input:checked ~ label:hover ~ label,
+    .rating_start > label:hover ~ input:checked ~ label {
+        color: rgb(255, 225, 0);
+    }
+}
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: rgb(187, 187, 187);
+        height: 100%;
+        background-position: center;
+    }
+    .container{
+        background-color: rgb(78, 78, 78);
+        opacity: 0.95;
+    }
+    .form1{
+        width: 100%;
+        display: flex;
+    }
+    .checkbox{
+        width: 50%;
+        font-size: 100%;
+        text-align: left;
+        margin-left: 10%;
+        color:white;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    form>div>p{
+        font-size: 100%;
+    }
+    img{
+        width: 100%;
+        height: auto !important;
+    }
+    .form2{
+        color:white;
+        display: table;
+    }
+    .input1{
+        width: 100%;
+        margin:auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 100%;
+    }
+    .input2{
+        margin: auto;
+        width:100%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 100%;
+    }
+    input{
+        border-bottom: 1px solid black;
+        border-radius: 5%;
+    }
+    textarea{
+        border: 1px solid black;
+        border-radius:5%;
+    }
+    .form3{
+        color:white;
+        display: table;
+        margin: auto;
+    }
+    .radio{
+        width: 100%;
+        float: none;
+        font-size: 100%;
+        text-align: left;
+        margin: auto;
+    }
+    .rating_start {
+        width:100%;
+        float: none;
+        height: 1.2em;
+        padding: 1% 0%;
+    }
+    .rating_start:not(:checked) > input {
+        position:absolute;
+        top:-9999px;
+    }
+    .rating_start:not(:checked) > label {
+        float:right;
+        width:1em;
+        overflow:hidden;
+        white-space:nowrap;
+        cursor:pointer;
+        font-size:3em;
+        color:#ccc;
+    }
+    .rating_start:not(:checked) > label:before {
+        content: '★ ';
+    }
+    .rating_start > input:checked ~ label {
+        color: yellow;    
+    }
+    .rating_start:not(:checked) > label:hover,
+    .rating_start:not(:checked) > label:hover ~ label {
+        color: orange;  
+    }
+    .rating_start > input:checked + label:hover,
+    .rating_start > input:checked + label:hover ~ label,
+    .rating_start > input:checked ~ label:hover,
+    .rating_start > input:checked ~ label:hover ~ label,
+    .rating_start > label:hover ~ input:checked ~ label {
+        color: rgb(255, 225, 0);
+    }
+}
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: rgb(187, 187, 187);
+        height: 100%;
+        background-position: center;
+    }
+    .container{
+        background-color: rgb(78, 78, 78);
+        opacity: 0.95;
+    }
+    .form1{
+        width: 100%;
+        display: flex;
+    }
+    .checkbox{
+        width: 50%;
+        font-size: 100%;
+        text-align: left;
+        margin-left: 10%;
+        color:white;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    form>div>p{
+        font-size: 100%;
+    }
+    img{
+        width: 100%;
+        height: auto !important;
+    }
+    .form2{
+        color:white;
+        display: flex;
+    }
+    .input1{
+        width: 50%;
+        float: left;
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-right: 1%;
+        margin-bottom: 2%;
+        font-size: 100%;
+    }
+    .input2{
+        float:right;
+        width:50%;
+        margin-top: 2%;
+        margin-left: 1%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+        font-size: 100%;
+    }
+    input{
+        border-bottom: 1px solid black;
+        border-radius: 5%;
+    }
+    textarea{
+        border: 1px solid black;
+        border-radius:5%;
+    }
+    .form3{
+        color:white;
+        display: flex;
+    }
+    .radio{
+        width: 50%;
+        float: left;
+        margin-top: 2%;
+        margin-left: 15%;
+        margin-right: 1%;
+        margin-bottom: 2%;
+        font-size: 100%;
+        text-align: left;
+    }
+    .rating_start {
+        width:50%;
+        float: left;
+        height: 1.2em;
+        padding: 5% 10%;
+    }
+    .rating_start:not(:checked) > input {
+        position:absolute;
+        top:-9999px;
+    }
+    .rating_start:not(:checked) > label {
+        float:right;
+        width:1em;
+        overflow:hidden;
+        white-space:nowrap;
+        cursor:pointer;
+        font-size:3em;
+        color:#ccc;
+    }
+    .rating_start:not(:checked) > label:before {
+        content: '★ ';
+    }
+    .rating_start > input:checked ~ label {
+        color: yellow;    
+    }
+    .rating_start:not(:checked) > label:hover,
+    .rating_start:not(:checked) > label:hover ~ label {
+        color: orange;  
+    }
+    .rating_start > input:checked + label:hover,
+    .rating_start > input:checked + label:hover ~ label,
+    .rating_start > input:checked ~ label:hover,
+    .rating_start > input:checked ~ label:hover ~ label,
+    .rating_start > label:hover ~ input:checked ~ label {
+        color: rgb(255, 225, 0);
+    }
+}

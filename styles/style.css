@@ -1,0 +1,409 @@
+body{
+    font-family: Arial, Verdana, Halvetica, sans-serif;
+    text-align: center;
+    margin:0;
+    margin-bottom: 50px;
+}
+h2{
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+nav{
+    height:100%;
+    display: flex;
+    list-style-type: none;
+    background-color:rgb(59, 56, 56);
+}
+nav>a{
+    text-decoration: none;
+    color:white;
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin:auto;
+    font-size:100%;
+    object-fit: cover;
+}
+nav>a:hover{
+    background-color:grey;
+    color:black;
+    cursor:pointer;
+}
+nav>a:link {
+    color: white;
+}
+  
+  /* visited link */
+nav>a:visited {
+    color: white;
+}
+  /* selected link */
+nav>a:active {
+    color: rgb(0, 204, 255);
+}
+h1{
+    color:white;
+    font-family: sans-serif;
+}
+.line{
+    background-color:rgb(27, 27, 27);
+    width: 100%;
+    height:3px;
+}
+a:link {
+    color: rgb(255, 255, 255);
+}
+a:visited {
+    color: rgb(255, 158, 158);
+}
+a:active {
+    color: rgb(0, 204, 255);
+}
+footer{
+    height:auto;
+    background-color:rgb(19, 19, 19);
+    display: flex;
+    flex:1 1 1;
+    width: 100%;
+}
+footer>div{
+    width:33.33%;
+    text-align:center;
+}
+footer>div>ul>li{
+    color:white;
+}
+.links{
+    margin-left: 2em;
+}
+.links:link{
+    color:white;
+}
+.links:active{
+    color: rgb(0, 204, 255);
+}
+.links:visited{
+    color:white;
+}
+.links:hover{
+    color: red;
+}
+p{
+    color:white;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {  
+    body{
+        font-family: Arial, Verdana, Halvetica, sans-serif;
+        text-align: center;
+        margin:0;
+        margin-bottom: 50px;
+    }
+    h2{
+        color: white;
+    }
+    .container{
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    nav{
+        height:100%;
+        display: flex;
+        list-style-type: none;
+        background-color:rgb(59, 56, 56);
+    }
+    nav>a{
+        text-decoration: none;
+        color:white;
+        height: 100%;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin:auto;
+        font-size:100%;
+        object-fit: cover;
+    }
+    nav>a:hover{
+        background-color:grey;
+        color:black;
+        cursor:pointer;
+    }
+    nav>a:link {
+        color: white;
+    }
+      
+      /* visited link */
+    nav>a:visited {
+        color: white;
+    }
+      /* selected link */
+    nav>a:active {
+        color: rgb(0, 204, 255);
+    }
+    h1{
+        color:white;
+        font-family: sans-serif;
+    }
+    .line{
+        background-color:rgb(27, 27, 27);
+        width: 100%;
+        height:3px;
+    }
+    a:link {
+        color: rgb(255, 255, 255);
+    }
+      
+      /* visited link */
+    a:visited {
+        color: rgb(255, 158, 158);
+    }
+      
+      /* mouse over link */
+    
+      /* selected link */
+    a:active {
+        color: rgb(0, 204, 255);
+    }
+    footer{
+        height:auto;
+        background-color:rgb(19, 19, 19);
+        display: flex;
+        flex:1 1 1;
+        width: 100%;
+        font-size: 0.8em;
+    }
+    footer>div{
+        width:33.33%;
+        text-align:center;
+    }
+    footer>div>ul>li{
+        color:white;
+    }
+    .links{
+        margin-left: 2em;
+    }
+    .links:link{
+        color:white;
+    }
+    .links:active{
+        color: rgb(0, 204, 255);
+    }
+    .links:visited{
+        color:white;
+    }
+    .links:hover{
+        color: red;
+    }
+    p{
+        color:white;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {   
+    body{
+        font-family: Arial, Verdana, Halvetica, sans-serif;
+        text-align: center;
+        margin:0;
+        margin-bottom: 50px;
+    }
+    h2{
+        color: white;
+    }
+    .container{
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+    }
+    nav{
+        height:100%;
+        display: flex;
+        list-style-type: none;
+        background-color:rgb(59, 56, 56);
+    }
+    nav>a{
+        text-decoration: none;
+        color:white;
+        height: 100%;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin:auto;
+        font-size:100%;
+        object-fit: cover;
+    }
+    nav>a:hover{
+        background-color:grey;
+        color:black;
+        cursor:pointer;
+    }
+    nav>a:link {
+        color: white;
+    }  
+    nav>a:visited {
+        color: white;
+    }
+    nav>a:active {
+        color: rgb(0, 204, 255);
+    }
+    h1{
+        color:white;
+        font-family: sans-serif;
+    }
+    .line{
+        background-color:rgb(27, 27, 27);
+        width: 100%;
+        height:3px;
+    }
+    
+    a:link {
+        color: rgb(255, 255, 255);
+    }
+    a:visited {
+        color: rgb(255, 158, 158);
+    }
+    a:active {
+        color: rgb(0, 204, 255);
+    }
+    footer{
+        height:auto;
+        background-color:rgb(19, 19, 19);
+        display: flex;
+        flex:1 1 1;
+        width: 100%;
+        font-size: 0.8em;
+    }
+    footer>div{
+        width:33.33%;
+        text-align:center;
+    }
+    footer>div>ul>li{
+        color:white;
+    }
+    .links{
+        margin-left: 2em;
+    }
+    .links:link{
+        color:white;
+    }
+    .links:active{
+        color: rgb(0, 204, 255);
+    }
+    .links:visited{
+        color:white;
+    }
+    .links:hover{
+        color: red;
+    }
+    p{
+        color:white;
+    }
+} 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+    body{
+        font-family: Arial, Verdana, Halvetica, sans-serif;
+        text-align: center;
+        margin:0;
+        margin-bottom: 50px;
+    }
+    h2{
+        color: white;
+    }
+    .container{
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+    }
+    nav{
+        height:100%;
+        display: flex;
+        list-style-type: none;
+        background-color:rgb(59, 56, 56);
+    }
+    nav>a{
+        text-decoration: none;
+        color:white;
+        height: 100%;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin:auto;
+        font-size:100%;
+        object-fit: cover;
+    }
+    nav>a:hover{
+        background-color:grey;
+        color:black;
+        cursor:pointer;
+    }
+    nav>a:link {
+        color: white;
+    }
+      
+      /* visited link */
+    nav>a:visited {
+        color: white;
+    }
+      /* selected link */
+    nav>a:active {
+        color: rgb(0, 204, 255);
+    }
+    h1{
+        color:white;
+        font-family: sans-serif;
+    }
+    .line{
+        background-color:rgb(27, 27, 27);
+        width: 100%;
+        height:3px;
+    }
+    a:link {
+        color: rgb(255, 255, 255);
+    }
+    a:visited {
+        color: rgb(255, 158, 158);
+    }
+    a:active {
+        color: rgb(0, 204, 255);
+    }
+    footer{
+        height:auto;
+        background-color:rgb(19, 19, 19);
+        display: flex;
+        flex:1 1 1;
+        width: 100%;
+        font-size: 1.3em;
+    }
+    footer>div{
+        width:33.33%;
+        text-align:center;
+    }
+    footer>div>ul>li{
+        color:white;
+    }
+    .links{
+        margin-left: 2em;
+    }
+    .links:link{
+        color:white;
+    }
+    .links:active{
+        color: rgb(0, 204, 255);
+    }
+    .links:visited{
+        color:white;
+    }
+    .links:hover{
+        color: red;
+    }
+    p{
+        color:white;
+    }
+}

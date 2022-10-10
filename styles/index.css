@@ -1,0 +1,274 @@
+body{
+    background-image: url(../images/dice_background.jpeg);
+}
+.container{
+    background-color: rgb(78, 78, 78);
+    opacity: 0.95;
+}    
+.img_text_container{
+    height: 100%;
+}
+section>div>a{
+    width: 500px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+section>div>a>img{
+    object-fit: cover;
+}
+section>div>p{
+    color:white;
+}
+section>div>p>a{
+    color:rgb(0, 183, 255);
+}
+figure{
+    width: 50%;
+}
+#first_section_img{
+    width: 100%;
+}
+#first_section_p{
+    width: 50%;
+    font-size: 100%;
+    margin-top: 5%;
+}
+#second_section_p{
+    width: 50%;
+    font-size:100%;
+    margin-top: 5%;
+}
+#third_section_img{
+    width: 90%;
+}
+#third_section_p{
+    font-size:100%;
+    width:50%;
+    margin-left: 70px;
+    margin-top: 80px;
+}
+#fourth_section_p{
+    width: 50%; 
+    font-size:100%;
+    margin-top: 5%;
+}
+#fourth_section_img{
+    width: 80%;
+}
+figcaption{
+    font-size:100%; 
+    color:white;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+       background-image: url(../images/dice_background.jpeg);
+    }
+    .container{
+        background-color: rgb(78, 78, 78);
+        opacity: 0.95;
+    }
+    .img_text_container{
+        height: 100%;
+    }
+    section>div>a{
+        width: 500px;
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+    section>div>a>img{
+        object-fit: cover;
+    }
+    section>div>p{
+      color:white;
+    }
+    section>div>p>a{
+        color:rgb(0, 183, 255);
+    }
+    figure{
+        width: 80%;
+        margin: auto;
+    }
+    #first_section_img{
+        width: 100%;
+    }
+    #first_section_p{
+        width: 100%;
+        font-size: 100%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #second_section_p{
+        width: 100%;
+        font-size:100%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #third_section_img{
+        width: 90%;
+    }
+    #third_section_p{
+        font-size:100%;
+        width:100%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #fourth_section_p{
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #fourth_section_img{
+        width: 80%;
+    }
+    figcaption{
+        font-size:100%; 
+        color:white;
+    }
+  }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+       background-image: url(../images/dice_background.jpeg);
+    }
+    .container{
+        background-color: rgb(78, 78, 78);
+        opacity: 0.95;
+    }
+    .img_text_container{
+        height: 100%;
+    }
+    section>div>a{
+        width: 500px;
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+    section>div>a>img{
+        object-fit: cover;
+    }
+    section>div>p{
+      color:white;
+    }
+    section>div>p>a{
+        color:rgb(0, 183, 255);
+    }
+    figure{
+        width: 80%;
+        margin: auto;
+    }
+    #first_section_img{
+        width: 100%;
+    }
+    #first_section_p{
+        width: 100%;
+        font-size: 100%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #second_section_p{
+        width: 100%;
+        font-size:100%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #third_section_img{
+        width: 90%;
+    }
+    #third_section_p{
+        font-size:100%;
+        width:100%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #fourth_section_p{
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #fourth_section_img{
+        width: 80%;
+    }
+    figcaption{
+        font-size:100%; 
+        color:white;
+    }
+} 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+       background-image: url(../images/dice_background.jpeg);
+    }
+    .container{
+        background-color: rgb(78, 78, 78);
+        opacity: 0.95;
+    }
+    .img_text_container{
+        height: 100%;
+        display:flex;
+    }
+    section>div>a{
+        width: 500px;
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+    section>div>a>img{
+        object-fit: cover;
+    }
+    section>div>p{
+      color:white;
+    }
+    section>div>p>a{
+        color:rgb(0, 183, 255);
+    }
+    figure{
+        width: 50%;
+    }
+    #first_section_img{
+        width: 80%;
+    }
+    #first_section_p{
+        width: 50%;
+        font-size:1.5em;
+        margin-top: 5%;
+    }
+    #second_section_p{
+        width: 50%;
+        font-size:1.5em;
+        margin-top: 5%;
+    }
+    #third_section_img{
+        width: 90%;
+    }
+    #third_section_p{
+        font-size:1.5em;
+        width:50%;
+        margin-left: 70px;
+        margin-top: 80px;
+    }
+    #fourth_section_p{
+        width: 50%; 
+        font-size:1.5em;
+        margin-top: 5%;
+    }
+    #fourth_section_img{
+        width: 80%;
+    }
+    figcaption{
+        font-size:100%; 
+        color:white;
+    }
+}
