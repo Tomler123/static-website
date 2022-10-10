@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" href="styles/feedback.css">
+    <title>Feedback</title>
+</head>
+<body>
+<div class="container">
+    <header>
+        <nav>
+            <a href="index.html">Home Page</a>
+            <a href="history.html">Dice History</a>
+            <a href="game.html">Dice Game</a>
+            <a href="game_rules.html">Game Rules</a>
+            <a href="feedback.html">Your Opinion</a>
+        </nav>
+    </header>
+
+    <h1>Feedback</h1>
+    
+    <div class="line"></div>
+
+    <img src="images/feedback_cover.png" alt="Feedback" title="Feedback">
+
+    <div class="line"></div>
+
+    <form class="form1" action="mailto:nikolonikoloa@gmail.com" method="post" enctype="text/plain">
+        <div class="checkbox">
+            <p>Which page did you like on my website?</p>
+            <input type="checkbox" id="Main" name="Main" value="Main">
+            <label for="Main"> Main Page</label><br>
+            <input type="checkbox" id="History" name="History" value="History">
+            <label for="History"> History Page</label><br>
+            <input type="checkbox" id="Game" name="Game" value="Game">
+            <label for="Game"> Game Page</label><br>
+            <input type="checkbox" id="Rules" name="Rules" value="Rules">
+            <label for="Rules"> Rules Page</label><br>
+            <input type="checkbox" id="Feedback" name="Feedback" value="Feedback">
+            <label for="Feedback"> Feedback Page</label><br><br>
+
+            <input type="submit" value="Submit">
+        </div>
+
+        <div class="checkbox">
+            <p>What did you like most on my website?</p>
+            <input type="checkbox" id="Images" name="Images" value="Images">
+            <label for="Images"> Images</label><br>
+            <input type="checkbox" id="Video" name="Video" value="Video">
+            <label for="Video"> Video</label><br>
+            <input type="checkbox" id="Dice_Game" name="Dice_Game" value="Dice_Game">
+            <label for="Dice_Game"> Game</label><br>
+            <input type="checkbox" id="Menu" name="Menu" value="Menu">
+            <label for="Menu"> Menu</label><br>
+            <input type="checkbox" id="Footer" name="Footer" value="Footer">
+            <label for="Footer"> Footer</label><br><br>
+
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+    <div class="line"></div>
+    
+    <form class="form2" action="mailto:nikolonikoloa@gmail.com" method="post" enctype="text/plain">
+        <div class="input1">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+
+        <div class="input2">
+            <label >Your Thoughts: </label>
+            <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+            <br><br>
+            
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+
+    <div class="line"></div>
+
+    <form class="form3" action="mailto:nikolonikoloa@gmail.com" method="post" enctype="text/plain">
+        <div class="radio">
+            <p>Please select your age:</p>
+            <input type="radio" id="age1" name="age" value="16">
+            <label for="age1">less than 16</label><br>
+            <input type="radio" id="age2" name="age" value="17">
+            <label for="age2">17-21</label><br>  
+            <input type="radio" id="age3" name="age" value="21">
+            <label for="age3">21 or more</label><br><br>
+            <input type="submit" value="Submit">
+        </div>
+        
+        <div class="rating_start">
+            <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text">1 star</label>
+        </div>
+    </form>
+    
+    <div class="line"></div>
+
+    <p style="text-align:center; font-size:2em; font-family:Arial; height: 10%; width: 100%; color:rgb(209, 209, 209);margin-top:45px;">THANKS    FOR    VISITING    US</p>
+
+    <footer>
+        <div class="footer_children">
+            <p>
+                Thanks for visiting
+                <br>our website, hope
+                <br>you enjoyed it and
+                <br>you'll visit us again
+            </p>
+        </div>
+        <div class="footer_children">
+        <ul style="text-align:left">
+            <li><a class="links" style="text-decoration: none;" href="index.html">Main Page</a></li>
+            <li><a class="links" style="text-decoration: none;" href="history.html">Dice History</a></li>
+            <li><a class="links" style="text-decoration: none;" href="game.html">Dice Game</a></li>
+            <li><a class="links" style="text-decoration: none;" href="game_rules.html">Game Rules</a></li>
+            <li><a class="links" style="text-decoration: none;" href="feedback.html">Feedback</a></li>
+        </ul>
+        </div>
+        <div class="footer_children">
+            <p>Contact me on my email</p>
+            <p>nikolonikoloa@gmail.com</p>
+            <p>Or you can call on: </p>
+            <p>+36 20 525 69 32</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

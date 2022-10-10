@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" href="styles/game.css">
+    <title>Game</title>
+</head>
+<body>
+<div class="container">
+    <header>
+        <nav>
+            <a href="index.html">Home Page</a>
+            <a href="history.html">Dice History</a>
+            <a href="dice_game.html">Dice Game</a>
+            <a href="game_rules.html">Game Rules</a>
+            <a href="feedback.html">Your Opinion</a>
+        </nav>
+    </header>
+
+    <h1>Dice Game</h1>
+    
+    <div class="line"></div>
+
+    <div class="game_container">
+        <div class="dice_wrapper">
+            <img src="images/empty.png" alt="die" title="die" id="die-1"/>
+            <img src="images/empty.png" alt="die" title="die" id="die-2"/>
+        </div>
+        <p style="color: black" id="total"></p>
+        <button onclick="roll()">ROLL THE DICE</button>
+    </div>
+    
+    <div style="margin-top:2em" class="line"></div>
+    
+    <p style="text-align:center; font-size:2em; font-family:Arial; height: 10%; width: 100%; color:rgb(209, 209, 209);margin-top:45px;">THANKS    FOR    VISITING    US</p>
+
+    <footer style="font-size:1em">
+        <div class="footer_children">
+            <p>
+                Thanks for visiting
+                <br>our website, hope
+                <br>you enjoyed it and
+                <br>you'll visit us again
+            </p>
+        </div>
+        <div class="footer_children">
+        <ul style="text-align:left">
+            <li><a class="links" style="text-decoration: none;" href="index.html">Main Page</a></li>
+            <li><a class="links" style="text-decoration: none;" href="history.html">Dice History</a></li>
+            <li><a class="links" style="text-decoration: none;" href="game.html">Dice Game</a></li>
+            <li><a class="links" style="text-decoration: none;" href="game_rules.html">Game Rules</a></li>
+            <li><a class="links" style="text-decoration: none;" href="feedback.html">Feedback</a></li>
+        </ul>
+        </div>
+        <div class="footer_children">
+            <p>Contact me on my email</p>
+            <p>nikolonikoloa@gmail.com</p>
+            <p>Or you can call on: </p>
+            <p>+36 20 525 69 32</p>
+        </div>
+    </footer>
+    
+</div>
+
+<script src="scripts/dice_game.js"></script>
+
+</body>
+</html>
